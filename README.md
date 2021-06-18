@@ -18,17 +18,24 @@ Kirby CMS template adapted to use with modern Frontend tools.
 │   ├── media
 │   └── index.php
 ├── site
+│   ├── blueprints
 │   ├── config
 │   │   ├── config.kirby-rollup.test.php
 │   │   └── config.php
-│   └── plugins
-│       ├── kirby3-robots-txt
-│       └── kirby3-xmlsitemap
+│   ├── plugins
+│   │   ├── kirby3-robots-txt
+│   │   └── kirby3-xmlsitemap
+│   ├── snippets
+│   └── templates
 ├── src
 │   ├── css
 │   │   └── main.css
 │   └── js
 │       └── main.js
+├── storage
+│   ├── accounts
+│   ├── cache
+│   └── sessions
 ├── .eslintrc.js
 ├── .prettierrc.js
 ├── babel.config.js

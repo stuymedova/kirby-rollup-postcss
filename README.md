@@ -1,6 +1,6 @@
 # Kirby + Rollup template
 
-Kirby CMS template adapted to use with modern Frontend tools.
+Kirby CMS template adapted to use with modern frontend tools
 
 ## Overview
 
@@ -29,7 +29,8 @@ Kirby CMS template adapted to use with modern Frontend tools.
 │   └── templates
 ├── src
 │   ├── css
-│   │   └── main.css
+│   │   ├── main.css
+│   │   └── reset.css
 │   └── js
 │       └── main.js
 ├── storage
@@ -43,6 +44,7 @@ Kirby CMS template adapted to use with modern Frontend tools.
 ├── postcss.config.js
 └── rollup.config.js
 ```
+\* Files in `src/css` and `src/js` folders get processed and outputted to `public/assets/css` and `public/assets/js` respectively.
 
 ## Prerequisites
 

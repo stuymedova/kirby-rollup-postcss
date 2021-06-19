@@ -44,7 +44,6 @@ Kirby CMS template adapted to use with modern frontend tools
 ├── postcss.config.js
 └── rollup.config.js
 ```
-\* Files in `src/css` and `src/js` folders get processed and outputted to `public/assets/css` and `public/assets/js` respectively.
 
 ## Prerequisites
 

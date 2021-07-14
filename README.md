@@ -4,7 +4,7 @@ Kirby CMS template adapted to use with modern frontend tools
 
 ## Overview
 
-```
+```shell
 .
 ├── public
 │   ├── assets
@@ -20,6 +20,7 @@ Kirby CMS template adapted to use with modern frontend tools
 ├── site
 │   ├── blueprints
 │   ├── config
+│   │   │   # config.{url}.php
 │   │   ├── config.kirby-rollup.test.php
 │   │   └── config.php
 │   ├── plugins
@@ -55,7 +56,7 @@ Kirby CMS template adapted to use with modern frontend tools
 Run in terminal:
 ```shell
 composer install
-valet link # for valet users, otherwise an alternative
+valet link # for Laravel Valet users, otherwise an alternative
 
 npm install
 npm run watch # or npm run build

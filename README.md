@@ -1,6 +1,12 @@
-# Kirby + Rollup template
+# Kirby + Rollup + PostCSS template
 
-Kirby CMS template adapted to use with modern frontend tools
+Kirby CMS template adapted to use with modern frontend tools.
+
+## How it works?
+
+JavaScript files located in `src/js` directory and imported to `main.js`, and CSS files located in `src/css` directory and imported to `main.css` get processed and outputted to `public/assets/js/main.js` and `public/assets/css/main.css` respectively. JavaScript is processed by Rollup, CSS – by PostCSS. Refer `rollup.config.js` and `postcss.config.js`, as well as the "scripts" property of `package.json` for more information or to customize how the files get processed.
+
+Additionally, the setup employs a "Custom folder setup" and a "Multi-environment setup". To learn more, refer the Kirby guide on [Configuration](https://getkirby.com/docs/guide/configuration).
 
 ## Overview
 
